@@ -4,11 +4,9 @@
 //let originalStory = 'In Philippines, computer pioneer Leirey found herself working on a Company. Word got out that the team had "debugged" the Entire Mistake';
 
 //Empty array to add user input to it
-let userInput =[];
-let originalStory = `In ${userInput[0]}, computer pioneer ${userInput[1]} found herself working on a ${userInput[2]}.
-Word got out that the ${userInput[3]} had "debugged" the Entire ${userInput[4]}`;
+let userInputs =[];
 
-console.log(originalStory);
+
 
 
 
@@ -35,12 +33,39 @@ for(let i = numberOfQuestions; i > 0; i--){
         );
     numberOfQuestions--;
     */
+    userInputs.push(
     prompt(
         questionArray[questionCounter] + `....(${numberOfQuestions} questions left)`
+    )
         );
     numberOfQuestions--;
     questionCounter++;
 }
+alert("You are finish creating your story see it your self mr.Author...");
+
+let originalStory = `In ${userInputs[0]}, computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}.
+Word got out that the ${userInputs[3]} had "debugged" the Entire ${userInputs[4]}`;
+console.log(originalStory);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
