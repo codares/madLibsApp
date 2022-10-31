@@ -23,9 +23,44 @@ let questionArray =[`"${question} Place or Country..",
 // Question Counter (which question are we on)
 let questionCounter = 0;
 
-for(let i = numberOfQuestions;i>0;i--){
+for(let i = numberOfQuestions;i>=0;i--){
     //console.log(i);
-    console.log(questionArray[questionCounter]);
+
+    //display in the console log if running correctly
+    console.log(
+        questionArray[questionCounter] + `....(${numberOfQuestions} questions leaf)`
+        );
+    numberOfQuestions--;
     questionCounter++;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
