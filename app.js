@@ -8,12 +8,5 @@ Word got out that the ${userInput[3]} had "debugged" the Entire ${userInput[4]}`
 
 console.log(originalStory);
 
-let numberOfQuestions =[];
-numberOfQuestions[0];
-numberOfQuestions[1];
-numberOfQuestions[2];
-numberOfQuestions[3];
-numberOfQuestions[4];
+let numberOfQuestions = 5;
 
-
-console.log(numberOfQuestions);
