@@ -25,5 +25,6 @@ let questionCounter = 0;
 
 for(let i = numberOfQuestions;i>0;i--){
     console.log(i);
+    questionCounter++;
 }
 
