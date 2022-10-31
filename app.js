@@ -11,7 +11,7 @@ console.log(originalStory);
 
 
 let numberOfQuestions = 5;
-let question = prompt("Enter a ");
+let question = "Enter a ";
 
 let questionArray =[`"${question} Place or Country..",
 "${question} a name..",
@@ -24,7 +24,8 @@ let questionArray =[`"${question} Place or Country..",
 let questionCounter = 0;
 
 for(let i = numberOfQuestions;i>0;i--){
-    console.log(i);
+    //console.log(i);
+    console.log(questionArray[questionCounter]);
     questionCounter++;
 }
 
