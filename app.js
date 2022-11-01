@@ -37,17 +37,35 @@ for(let i = numberOfQuestions; i > 0; i--){
     prompt(
         questionArray[questionCounter] + `....(${numberOfQuestions} questions left)`
     )
+
         );
     numberOfQuestions--;
     questionCounter++;
+        
 }
-alert("You are finish creating your story see it your self mr.Author...");
+/*for(let i = 0;i > numberOfQuestions; i++){
+    if( userInputs[i] == ""){
+        alert("Please provide valid input..");
+        break;
+    }else{
+        alert("You are finish creating your story see it your self mr.Author...");
 
-let originalStory = `In ${userInputs[0]}, computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}.
-Word got out that the ${userInputs[3]} had "debugged" the Entire ${userInputs[4]}`;
-console.log(originalStory);
+        let originalStory = `<p>In <i>${userInputs[0]}</i>, computer pioneer <strong>${userInputs[1]}</strong> found herself working on a <i>${userInputs[2]}</i>.</p>
+        <p>Word got out that the <b>${userInputs[3]}</b> had "debugged" the Entire <i>${userInputs[4]}</i></p>`;
+        console.log(originalStory);
+        document.write(originalStory);
+    }
+}
+for(let i = 0;i > 5; i++){
+document.write(userInputs[i]);
+}*/
 
+        alert("You are finish creating your story see it your self mr.Author...");
 
+        let originalStory = `<p>In <i>${userInputs[0]}</i>, computer pioneer <strong>${userInputs[1]}</strong> found herself working on a <i>${userInputs[2]}</i>.</p>
+        <p>Word got out that the <b>${userInputs[3]}</b> had "debugged" the Entire <i>${userInputs[4]}</i></p>`;
+
+        document.write(originalStory);
 
 
 
